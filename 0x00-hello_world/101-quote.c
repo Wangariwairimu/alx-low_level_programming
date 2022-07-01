@@ -11,5 +11,5 @@ int main(void)
 	size_t len = strlen(str);
 	/* Starting main */
 	fwrite(str, len, 1, stderr);
-	return(1);
+	return (1);
 }
